@@ -51,6 +51,11 @@ body {
   color: #222;;
 }
 
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
 #brand {
   float: left;
   display: inline-block;
