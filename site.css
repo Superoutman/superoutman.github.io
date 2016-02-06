@@ -92,6 +92,12 @@ body {
     padding-bottom: 60px;
     color: #444443;
 }
+.about-content h2 {
+    padding-top: 10px;
+    color: #666;
+    font: 400 normal 13px/1.4 sans-serif;
+    text-transform: uppercase;
+}
 #footer {
   padding: 10px 0 20px;
   text-align: center;
