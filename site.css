@@ -95,7 +95,7 @@ body {
 .about-content h2 {
     padding-top: 10px;
     color: #666;
-    font: 400 normal 13px/1.4 Courier, "Helvetica Neue", sans-serif;
+    font: 400 normal 13px/1.4 'Avenir Next', Avenir, 'Helvetica Neue', sans-serif;
     text-transform: uppercase;
 }
 #footer {
