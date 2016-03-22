@@ -301,3 +301,15 @@ body {
     display: none;
   }
 }
+
+
+
+.post-content h2:before, .post-content h3:before, .post-content h4:before, .post-content h5:before, .post-content h6:before {
+    content: "#";
+    color: #42b983;
+    position: absolute;
+    left: -0.7em;
+    top: -4px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
