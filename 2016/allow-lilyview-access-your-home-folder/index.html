@@ -3,10 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <title>hello</title>
+  <title>关于无法关闭 LilyView 权限提示的解决方法 — hello</title>
   
   
   
+  <meta property="og:type" content="article">
+<meta property="og:title" content="关于无法关闭 LilyView 权限提示的解决方法">
+<meta property="og:url" content="">
+
+  <meta name="description" content="没想到解决方法这么简单">
+  <meta property="og:description" content="没想到解决方法这么简单">
+
+
+  <meta property="og:image" content="/apple-touch-icon-152.png">
+
+
+  <meta name="twitter:card" content="summary">
+
+<meta property="og:site_name" content="">
+<link rel="canonical" href="">
+
+
   <link rel="stylesheet" href="/yue.css">
   <link rel="stylesheet" href="/ui.css">
   <link rel="stylesheet" href="/site.css">
@@ -19,7 +36,7 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', '');
 (function(){
   
-    var title = document.title;
+    var title="关于无法关闭 LilyView 权限提示的解决方法";
   
   ga('send', 'pageview', {
     page: location.pathname,
@@ -69,75 +86,54 @@ ga('create', '');
     </div>
   </header>
   
+<article id="main" role="main" class="hentry yue" itemscope itemtype="http://schema.org/Article">
+
 <div class="entry-header">
-  <div class="container yue">
-    
-    <h1 class="entry-title">hello</h1>
-    <p class="entry-description">这是一段描述</p>
-    
-    
+  <div class="container">
+    <h1 class="entry-title" itemprop="name">关于无法关闭 LilyView 权限提示的解决方法</h1>
+    <p class="entry-description" itemprop="headline">没想到解决方法这么简单</p>
+    <div class="entry-meta">
+      
+        <time class="updated" datetime="1458619337000" itemprop="datePublished" pubdate>
+          Mar 22, 2016
+        </time> <span>245 words</span>
+      
+
+      
+    </div>
   </div>
 </div>
+  <div class="entry-content container" itemprop="articleBody">
+    <p>不知从什么时候开始，用 LilyView 打开图片浏览的时候，总会提示这个对话框：</p>
+<figure> <img src="http://imim.im/2016/allow-lilyview-access-your-home-folder/LilyView.png" alt="LilyView"> <figcaption>该死的对话框</figcaption></figure>
 
-<div id="main" class="container yue">
-  <ul class="entry-list" role="main">
-    
-    <li class="entry-item" itemscope itemtype="http://schema.org/Article">
-    <div class="entry-meta">
-      <time class="updated" itemprop="datePublished" datetime="1458619337000">Mar 22, 2016</time> <em>245 words</em>
-    </div>
-    <div class="detail">
-      <h2 itemprop="name"><a itemprop="url" href="/2016/allow-lilyview-access-your-home-folder/">关于无法关闭 LilyView 权限提示的解决方法</a></h2>
-      
-      <div itemprop="description"><a href="/2016/allow-lilyview-access-your-home-folder/" class="description">没想到解决方法这么简单</a></div>
-      
-    </div>
-    </li>
-    
-    <li class="entry-item" itemscope itemtype="http://schema.org/Article">
-    <div class="entry-meta">
-      <time class="updated" itemprop="datePublished" datetime="1454396499000">Feb 02, 2016</time> <em>356 words</em>
-    </div>
-    <div class="detail">
-      <h2 itemprop="name"><a itemprop="url" href="/2016/hello-world/">Hello World</a></h2>
-      
-      <div itemprop="description"><a href="/2016/hello-world/" class="description">This is a fake description meta data</a></div>
-      
-    </div>
-    </li>
-    
-    <li class="entry-item" itemscope itemtype="http://schema.org/Article">
-    <div class="entry-meta">
-      <time class="updated" itemprop="datePublished" datetime="1453357680000">Jan 21, 2016</time> <em>372 words</em>
-    </div>
-    <div class="detail">
-      <h2 itemprop="name"><a itemprop="url" href="/2016/chinese-test/">桃花源记</a></h2>
-      
-      <div itemprop="description"><a href="/2016/chinese-test/" class="description">取自魏晋时期，陶渊明的「桃花源记」一文。</a></div>
-      
-    </div>
-    </li>
-    
-  </ul>
+<p>以前点击一次允许，就可以全盘查看了，但这回任凭如何点击都不起作用，差点疯掉。无奈之下给开发团队去了封邮件，没想到很快得到了回复，文中提到的解决方法：</p>
+<blockquote><p>The good news is that you can grant access to the root folder (Macintosh HD) once and forever, and the app will stop asking. Just go to Finder, select Go &gt; Computer menu command and drag your Macintosh HD to LilyView icon in the Dock. This is done only once!</p>
+</blockquote>
+<p>大意就是，在电脑中找到 Macintosh HD 然后拖动它到 Dock 中的 LilyView 图标上（或者直接拖到上图中也可以，亲测），就可以了。</p>
+<p>这是什么奇葩招数。。不过抱着试试看的态度试了下，还真就解决了！你呢？</p>
 
-  <hr>
-      <div class="about-content">
-        <h2>About</h2>
-          <p>Hi! I'm Superoutman. The logo is created with Sketch. The site is hosted by GitHub Pages.</p>
-          <p>All articles are (c) Superoutman, all rights reserved. </p>
-        <h2>MORE LINKS</h2>
-        <ul>
-          <li>
-            <a href="https://dribbble.com/Superoutman">Dribbble</a>: Some works.
-          </li>
-          <li>
-            <a href="https://www.instagram.com/super_outman/">Instagram</a>: I take photos in daily life.
-          </li>
-        </ul> 
-      </div>
+  </div>
+  <span class="author vcard hide">
+    <span class="fn" itemprop="author">Superoutman</span>
+  </span>
+</article>
 
-  
+<div class="entry-comments yue">
+  <div id="disqus_thread" class="container"></div>
 </div>
+<script>
+    var disqus_shortname='my-hexo';
+    var disqus_title='关于无法关闭 LilyView 权限提示的解决方法';
+    var disqus_url='http://imim.im/2016/allow-lilyview-access-your-home-folder/';
+    (function() {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+
+
 
   <footer id="footer">
     <div class="container">
