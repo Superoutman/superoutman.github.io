@@ -44,6 +44,16 @@
   margin: 0.83em 0;
 }
 
+.yue h2:before {
+  content: "#";
+  color: #42b983;
+  position: absolute;
+  left: -0.7em;
+  top: -4px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
 .yue h3 {
   font-size: 1.17em;
   margin: 1em 0;
