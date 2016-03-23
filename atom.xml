@@ -42,11 +42,11 @@
     <link href="http://imim.im/2016/allow-lilyview-access-your-home-folder/"/>
     <id>http://imim.im/2016/allow-lilyview-access-your-home-folder/</id>
     <published>2016-03-22T04:02:17.000Z</published>
-    <updated>2016-03-23T02:31:30.000Z</updated>
+    <updated>2016-03-23T02:34:51.000Z</updated>
     <content type="html"><![CDATA[<p>不知从什么时候开始，用 LilyView 打开图片浏览的时候，总会提示这个对话框：</p>
 <figure> <img src="http://imim.im/2016/allow-lilyview-access-your-home-folder/LilyView.png" alt="LilyView"> <figcaption>该死的对话框</figcaption></figure>
 
-<p>以前点击一次允许，就可以全盘查看了，但这回任凭如何点击都不起作用，差点疯掉。无奈之下给开发团队去了封邮件，没想到很快得到了回复，文中提到的解决方法：</p>
+<p>以前点击一次允许，就可以全盘查看了，但这回任凭如何点击都不起作用，差点疯掉。不过，一个好消息是，以下办法可以解决：</p>
 <blockquote><p>Just go to Finder, select Go &gt; Computer menu command and drag your Macintosh HD to LilyView icon in the Dock. This is done only once!</p>
 </blockquote>
 <p>大意就是，在电脑中找到 Macintosh HD 然后拖动它到 Dock 中的 LilyView 图标上（或者直接拖到上图中也可以，亲测），就可以了。</p>
