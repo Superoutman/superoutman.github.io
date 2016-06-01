@@ -3,9 +3,9 @@
   <title><![CDATA[hello]]></title>
   
   <link href="/atom.xml" rel="self"/>
-  <link href="http://imim.im/"/>
+  <link href="http://vvordpress.com/"/>
   <updated>2016-03-22T08:24:50.000Z</updated>
-  <id>http://imim.im/</id>
+  <id>http://vvordpress.com/</id>
   
   <author>
     <name><![CDATA[Superoutman]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://imim.im/2016/hello-world/"/>
-    <id>http://imim.im/2016/hello-world/</id>
+    <link href="http://vvordpress.com/2016/hello-world/"/>
+    <id>http://vvordpress.com/2016/hello-world/</id>
     <published>2016-03-22T08:24:50.000Z</published>
     <updated>2016-03-22T08:24:50.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -39,8 +39,8 @@
   
   <entry>
     <title><![CDATA[桃花源记]]></title>
-    <link href="http://imim.im/2016/chinese-test/"/>
-    <id>http://imim.im/2016/chinese-test/</id>
+    <link href="http://vvordpress.com/2016/chinese-test/"/>
+    <id>http://vvordpress.com/2016/chinese-test/</id>
     <published>2016-01-21T06:28:00.000Z</published>
     <updated>2016-02-10T15:21:13.000Z</updated>
     <content type="html"><![CDATA[<p>晋太元中，武陵人捕鱼为业。缘溪行，忘路之远近。忽逢桃花林，夹岸数百步，中无杂树，芳草鲜美，落英缤纷，渔人甚异之。复前行，欲穷其林。</p>
@@ -60,11 +60,11 @@
     
     </summary>
     
-      <category term="中文" scheme="http://imim.im/tags/%E4%B8%AD%E6%96%87/"/>
+      <category term="中文" scheme="http://vvordpress.com/tags/%E4%B8%AD%E6%96%87/"/>
     
-      <category term="测试" scheme="http://imim.im/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://vvordpress.com/tags/%E6%B5%8B%E8%AF%95/"/>
     
-      <category term="小记" scheme="http://imim.im/categories/%E5%B0%8F%E8%AE%B0/"/>
+      <category term="小记" scheme="http://vvordpress.com/categories/%E5%B0%8F%E8%AE%B0/"/>
     
   </entry>
   
