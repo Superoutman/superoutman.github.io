@@ -1,12 +1,13 @@
 figure.highlight {
   background: #f9f9f7;
-  margin: 10px 0 15px;
-  padding: 7px 15px;
+  margin: 10px 0 25px;
+  padding: 30px 30px;
   border-left: 3px solid #dadada;
   text-shadow: 0 0 1px #fff;
-  line-height: 1.6;
+  line-height: 1.8;
   overflow: auto;
   position: relative;
+  font-size: 14px;
 }
 figure.highlight figcaption {
   color: #999;
