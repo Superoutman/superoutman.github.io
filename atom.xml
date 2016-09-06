@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://outmo.de/"/>
-  <updated>2016-09-06T07:23:16.000Z</updated>
+  <updated>2016-09-06T07:32:23.000Z</updated>
   <id>http://outmo.de/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://outmo.de/2016/my-rime-squirrel-theme/"/>
     <id>http://outmo.de/2016/my-rime-squirrel-theme/</id>
     <published>2016-09-06T06:37:47.000Z</published>
-    <updated>2016-09-06T07:23:16.000Z</updated>
+    <updated>2016-09-06T07:32:23.000Z</updated>
     <content type="html"><![CDATA[<p>新版的鼠须管（0.9.26.2）变得漂亮了。之前一直不能升级成功，后来使用了 scomper <a href="https://www.v2ex.com/t/303479" target="_blank" rel="external">编译好的版本</a> 直接覆盖就好了。</p>
 <p>经过又一轮的调教，现在已经让我爱不释手了。在新版的特性下，调整了一下输入法的配色，顿时让人赏心悦目。</p>
 <figure> <img src="http://ww3.sinaimg.cn/large/65e4f1e6jw1f7jv4yndqcj214g0fw74y.jpg" alt="鼠须管配色"> <figcaption>鼠须管配色方案</figcaption></figure>
